@@ -47,10 +47,10 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: unihit/cloudtype-webinar-01
+          project: unihit/webinar
           stage: main
           yaml: |
-            name: webinar2
+            name: webinar-2
             app: container
             options:
               ports: 8080
